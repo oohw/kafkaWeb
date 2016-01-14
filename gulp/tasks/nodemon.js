@@ -4,7 +4,7 @@ const config = require("../config");
 
 const nodemonTask = (cb) => {
 	nodemon({
-	    script: config.root.src + "/server/index.js",
+		script: config.root.src + "/server/index.js",
 		ext: "js",
 		ignore: ["dist/**/*", "src/client/**/*"],
 		env: {
