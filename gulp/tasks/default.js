@@ -4,7 +4,7 @@ const gulp = require("gulp");
 const sequence = require("gulp-sequence");
 
 const defaultTask = (cb) => {
-	sequence("clean", ["watch", "browserify", "nodemon"], cb);
+	sequence("clean", "browserify", ["watch"], cb);
 };
 
 gulp.task("default", defaultTask);

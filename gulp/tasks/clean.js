@@ -5,7 +5,7 @@ const del = require("del");
 const config = require("../config");
 
 const cleanTask = (cb) => {
-	del([config.root.dest]).then((paths) => {
+	del([config.root.dist]).then((paths) => {
 		cb();
 	});
 };

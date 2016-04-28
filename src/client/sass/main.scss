@@ -1,6 +1,32 @@
 @import "../../../node_modules/node-reset-scss/scss/_reset.scss";
+@import "menu";
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,500,600,700,900);
+@import url(https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700);
+
+  @font-face {
+    font-family: "Computer Modern";
+    src: url('../assets/fonts/cm/cmunui.otf');
+  }
+
 
 html,
 body {
 	height: 100%;
+	overflow: hidden;
+	background: #ffe;
+  transition: background 3s;
+}
+
+#title {
+  position: fixed;
+  font-weight: 100;
+  font-family: 'Computer Modern', serif;
+  color: #000;
+  font-size: 42px;
+  text-align: center;
+  top: 20px;
+  left: 20px;
+  transition: 1s;
+  z-index: 2147483647;
 }

@@ -3,6 +3,6 @@
 module.exports = {
 	root: {
 		src: "./src",
-		dest: "./dist"
+		dist: "./dist"
 	}
 };
