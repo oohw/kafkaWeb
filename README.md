@@ -1,8 +1,7 @@
 The Modular body web
 
 ## what?
-Here the final code for the website is developed. put your experiments in modular-body-prototypes.
-Please follow javascript guideline as proposed in dev meetings.
+Here the code
 
 ## installation
 ```shell
